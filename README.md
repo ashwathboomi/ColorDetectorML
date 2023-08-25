@@ -33,6 +33,7 @@ The output of the model will be a one-hot encoded array of length 6. The distinc
 
 Example: \[1 0 0 1 0 0] indicated that the colors blue and purple are present.
 
+
 UPDATE 8/25/2023:
 
 The model can identify 6 distinct colors. In identifying the primary color, the model is on average 97% accurate. The accuracy decreases when identifying the secondary and tertiary colors. This is mostly due to the fact that the model was trained on images that contained one color. In the next iterations, a larger image dataset with images containing multiple colors will be used to train the model. This will give the model more credibility in identifying the entire color palette of an image.
