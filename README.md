@@ -29,9 +29,11 @@ from tensorflow.keras.models import load_model
 use_model = load_model(os.path.join('models', 'ColorDetector.keras'))
 ```
 
-The output of the model will be a one-hot encoded array of length 6. The distinct color classes are represented by the index position. The following key can be used: \[blue green orange purple red yellow] 
+The output of the model will be a one-hot encoded array of length 6. The distinct color classes are represented by the index position. The following key can be used: 
 
-Example: \[1 0 0 1 0 0] indicated that the colors blue and purple are present.
+\[blue green orange purple red yellow] 
+
+Example: \[1 0 0 1 0 0] indicates that the colors blue and purple are present.
 
 
 UPDATE 8/25/2023:
