@@ -1,7 +1,7 @@
 # ColorDetectorML
 ## Created a machine learning model that identifies color schemes within images using TensorFlow
 
-The model and the data can be found in the master branch of the repository.
+*The model and the data can be found in the master branch of the repository.*
 
 The data folder contains all the images that were used to train, validate, and test the model. Inside the folder are 6 folders, each representing a color class, which contains images of that color. In total, there are around 1000 images in the data directory. All data was obtained/sourced from Google Images
 
